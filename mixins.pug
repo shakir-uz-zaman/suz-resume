@@ -42,6 +42,6 @@ mixin rateItem(title, subtitle, rate)
                 br
                 small=subtitle
         //if rate
-            .rate
+            .rate+
                 each value, index in new Array(10)
                     span(class=rate > index ? 'fill' : '')
